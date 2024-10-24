@@ -5,7 +5,7 @@ export const Modal = ({ isOpen, message, onClose }) => {
 
     return (
         <div className="z-10 fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
-            <div className="bg-white max-w-80 min-h-40 p-4 rounded relative ">
+            <div className="bg-white max-w-80 min-h-40 p-4 mx-2 rounded relative ">
                 <div className="text-center mt-2">
                     <h2 className="text-2xl font-bold">
                         Aviso

@@ -37,11 +37,11 @@ export const Form = () => {
 
 
     return (
-        <main className="bg-white p-4 rounded-lg shadow-md w-full max-w-lg mx-auto mt-8">
+        <main className="w-full mb-4">
             <form
                 onSubmit={handleSubmit(onSubmit, onError)}
                 noValidate
-                className="w-full p-4 flex flex-col ">
+                className="bg-white p-8 rounded-lg shadow-md max-w-lg mx-auto mt-8">
 
                 <div className="w-full bg-white">
                     <label className="relative">
