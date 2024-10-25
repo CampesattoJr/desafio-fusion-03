@@ -4,7 +4,12 @@ export const Footer = () => {
             <p>© Frontend Fusion</p>
             <p>
                 Desenvolvido por
-                <a rel="stylesheet" href="https://github.com/CampesattoJr">Sandro</a>
+                <a
+                    rel="stylesheet"
+                    href="https://github.com/CampesattoJr"
+                    target="_blank"
+                    className="underline ml-1"> 
+                    Sandro</a>
             </p>
         </footer>
     )
